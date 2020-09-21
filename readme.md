@@ -1,7 +1,5 @@
-<!DOCTYPE html>
-<html>
 <body>
 <h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
+<p>This is the readme.md file</p>
 </body>
-</html>
+

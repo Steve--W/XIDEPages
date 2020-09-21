@@ -1,7 +1,4 @@
-<!DOCTYPE html>
-<html>
 <body>
 <h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
+<p>This is the index.md file</p>
 </body>
-</html>
