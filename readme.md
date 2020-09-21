@@ -1,6 +1,6 @@
 <body>
-<h1>Hello World</h1>
-<p>This is the readme.md file</p>
+<h1>XIDE Project Examples</h1>
+<p>Sample projects created using XIDE</p>
 <a href="https://steve--w.github.io/XIDEPages/XIDESimplePascalExample.html">
             XIDE Simple Pascal Example
           </a>
