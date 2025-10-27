@@ -10,5 +10,8 @@
 <p><a href="https://steve--w.github.io/XIDEPages/XIDEPascalSVGAndGPUExample.html">
             XIDE Pascal SVG and GPU Example
           </a></p>
+<p><a href="https://steve--w.github.io/XIDEPages/LAD_LASSODemo.html">
+            XIDE LAD_LASSO Demo
+          </a></p>
 </body>
 
