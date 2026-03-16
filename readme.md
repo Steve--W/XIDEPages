@@ -13,8 +13,8 @@
 <p><a href="https://steve--w.github.io/XIDEPages/LAD_LASSODemo.html">
             XIDE LAD_LASSO Demo
           </a></p>
-<p><a href="https://steve--w.github.io/XIDEPages/ExtendedThielSenDemo.html">
-            XIDE ThielSen Demo
+<p><a href="https://steve--w.github.io/XIDEPages/ExtendedTheilSenDemo.html">
+            XIDE TheilSen Demo
           </a></p>
 </body>
 
