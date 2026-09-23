@@ -20,7 +20,7 @@ window.alert=function(msg){
   return true;
 };
 </script>
-<script src="https://cdn.jsdelivr.net/pyodide/v0.18.1/full/pyodide.js"></script>
+<script src="https://cdn.jsdelivr.net/pyodide/v0.27.8/full/pyodide.js"></script>
 <script type="application/javascript" >
 var pyodideReady = 0;
 var PyodideOffline = false;
@@ -72,10 +72,12 @@ function pysrcLoaded() {
     loadPyPkg0("micropip",6,doAllFinalInits);
     pyodide.runPython('from js import pas');
  }
+
 async function loadpyodidefromweb(){
     console.log("try web pyodide load...");
     try {
-      pyodide = await loadPyodide({ indexURL : "https://cdn.jsdelivr.net/pyodide/v0.18.1/full/" })
+      //pyodide = await loadPyodide({ indexURL : "https://cdn.jsdelivr.net/pyodide/v0.18.1/full/" })
+      pyodide = await loadPyodide();
       if (pyodide) {
         pysrcLoaded();}
       else {
@@ -16581,7 +16583,7 @@ rtl.module("NodeUtils",["System","Classes","SysUtils","StringUtils","TypInfo","E
     if (inobFn === null) {
       pas.StringUtils.ShowMessage((("no interface object creation function for " + NodeType) + " ") + NodeName)}
      else {
-      console.log('function found');
+      //console.log('function found');
       myObj = inobFn(MyForm,NodeName,NameSpace);
     };
     Result = myObj;
